@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Temperature Converter</title>
+		<link rel="stylesheet" href="website.css">
+		<script type="text/javascript" src="temperature.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="guide"><h1><a href="http://www.abidameermeer@gmail.com">temperatureConversion</a></h1></div>
+			</div><!--id="header"-->
+			<div id="content">
+<!--#this is where you place the contents of your web page-->
+<form action="#"> <!--This form takes input from the user and executes the javascript.-->
+    <p>
+      <label>Convert to Celcius<input id="celcius" name="temperatureConversion" value="celcius" type="radio" checked></label> 
+      <label>Fahrenheit<input id="fahrenheit" name="temperatureConversion" value="fahrenheit" type="radio"></label>
+      <br>
+      <label>Enter a temperature: <input id = "input1" type = "number"></label>
+      <input id="calculateButton" type="button" value="Calculate">
+    </p>
+</form>
+      
+<p id="result"></p> <!--This is where the output displays itself.-->
+			</div><!--content-->
+			<div id="footer">
+				<p>Copyright &copy; Abida Mir/WebDeveloper</p>
+			</div> <!--footer-->
+		</div><!--wrapper-->
+	</body>
+</html>

@@ -1,0 +1,138 @@
+/* This section is used by the fifteen game. */
+#table{
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.tile {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #222;
+  text-align: center;
+  /* Webkit (Chrome and Safari) */
+  background: -webkit-gradient(linear, top, bottom,color-stop(15%, white),color-stop(80%, darkgray),);
+  /* Mozilla */
+  background: -moz-linear-gradient(top, white 15%, darkgray 90%);  
+  /* Internet Explorer */
+  background: linear-gradient(90deg, white 15%, darkgray 90%);
+  color: #000;
+  cursor: pointer;
+}
+
+.blank {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+#moves {
+  border: 2px solid #222;
+  /* Webkit (Chrome and Safari) */
+  background: -webkit-gradient(linear, top, bottom,color-stop(15%, white),color-stop(80%, darkgray),);
+  /* Mozilla */
+  background: -moz-linear-gradient(top, white 15%, darkgray 90%);  
+  /* Internet Explorer */
+  background: linear-gradient(90deg, white 15%, darkgray 90%);
+  font-weight: bold;
+  padding: 2px 5px;
+  color: #000;
+}
+/* end fifteen game */
+
+body { 
+  background: #fff;
+  color: #330000; 
+  font-family: Arial, Verdana, sans-serif;
+}
+
+h1 { 
+  color: #000000; 
+  font-family: Georgia, "Times New Roman", serif; 
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* This is used inside the visible header of each page*/
+#guide {
+  width: 730px;
+  font-size: 14px;
+  color: #000;
+  text-shadow: 1px 1px 1px #fff;
+  background: #c0c0c0;
+  letter-spacing: 1px;
+  padding: 6px;
+  -moz-box-shadow: 2px 3px 3px #aaa;
+  -webkit-box-shadow: 3px 4px 4px #aaa;
+  border: 1px #cdcdcd solid;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border: 1px solid #aaa;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#header {
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 20px;
+} 
+
+#wrapper {  
+ /* background-color: #440300;*/ /*this color displays in the navigation bar*/
+  min-width: 700px;
+  text-align: center;
+  /*box-shadow: 5px 5px 5px #888;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#content {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #000000;
+}
+
+#footer { 
+  /*background-color: #ffffff; */
+  color: #000000; 
+  font-size: .60em; 
+  font-style: italic; 
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*border-top: 3px solid #ffffff;*/
+}
+
+#footer a:link {
+  color: #000000;
+}
+
+#footer a:visited {
+  color: #f2eab7;
+}
+
+#footer a:hover {
+  color: #330000;
+}
